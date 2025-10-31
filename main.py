@@ -36,7 +36,7 @@ def countDown():
     else:
         gameInstance.hideturtle()
         timeWriter.goto(0,0)
-        timeWriter.write(f"Game Over Cidoo! Your Score: {Score}", align="Center", font=("Arial", 50, "normal"))
+        timeWriter.write(f"Game Over! Your Score: {Score}", align="Center", font=("Arial", 50, "normal"))
         gameInstance.onclick(None)
 
 def moveTurtle():
